@@ -1,0 +1,11 @@
+.shakil{
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: width 1s,height 1s, transform 1s;
+}
+.shakil:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}

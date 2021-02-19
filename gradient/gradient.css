@@ -1,0 +1,25 @@
+.gradient1{
+    width: 200px;
+    height: 200px;
+    background:linear-gradient(green,red);
+}
+
+.gradient2{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to right bottom,yellow,lime,red);
+}
+
+.gradient3{
+    width:  200px;
+    height: 200px;
+    background: linear-gradient(red 50%,green 50%);
+}
+
+.gradient4{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(rgba(255,0,0,0),rgba(255,0,0,1));
+}

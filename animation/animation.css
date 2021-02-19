@@ -1,0 +1,39 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: relative;
+    background: red;
+    animation:shakil 2s ease-in 1s infinite alternate backwards
+}
+
+@keyframes shakil{
+    0%{
+        background-color: orange; 
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background-color: yellow;
+        top: 0;
+        left: 200px;
+
+    }
+    50%{
+        background-color: green;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: black;
+        left: 0;
+        top: 200px;
+    }
+    
+    100%{
+        background-color:red;
+        left: 0;
+        top: 0;
+    }
+}
