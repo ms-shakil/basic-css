@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tooltip</title>
+</head>
+ <style>
+     .my_link{
+         text-decoration: none;
+         position: relative;
+     }
+
+    .my_span{
+        width: 170px;
+        background-color: yellow;
+        padding: 5px;
+        border-radius: 5px;
+        position: absolute;
+        top: 30px;
+        left: 10px;
+        color: black;
+        visibility: hidden;
+        z-index: 1;
+    }
+    .my_link:hover .my_span{
+        visibility:visible;
+    }
+
+ </style>
+<body>
+    <a class="my_link" href="">Python <span class="my_span">Python is a 
+        best language.</span> </a>
+</body>
+</html>
